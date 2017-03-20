@@ -3,19 +3,6 @@
     "baseURL":"http://localhost/mantisbt-1.3.0",
     "username" : "administrator",
     "password" : "1234"
-
-
-  },
-  "webadmin": {
-    "username" : "administrator",
-    "password" : "1234",
-    "soap_client":"http://localhost/mantisbt-1.3.0/api/soap/mantisconnect.php?wsdl"
-  },
-  "db": {
-    "host": "localhost",
-    "name": "bugtracker",
-    "user": "root",
-    "password": ""
-  }
+    }
 
 }
