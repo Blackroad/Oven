@@ -1,4 +1,4 @@
-import pymssql
+import pymysql
 
 
 class Dbfixture:
@@ -7,7 +7,7 @@ class Dbfixture:
         self.user = user
         self.database = database
         self.password = password
-        self.connection = pymssql.connect(host=host, database=database, user=user, password=password)
+        self.connection = pymysql.connect(host=host, database=database, user=user, password=password)
         self.connection.autocommit(True)
 
 
