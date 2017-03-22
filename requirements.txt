@@ -2,4 +2,4 @@ pytest
 pillow
 selenium
 jsonpickle
-pymssql
+pymysql
